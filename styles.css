@@ -1,0 +1,154 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Background styling for login and register */
+.background {
+    background-image: url("/static/shopping-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form container styling */
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Form title styling */
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input fields styling */
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Textarea resizing disabled */
+.form-container textarea {
+    resize: none;
+}
+
+/* Buttons */
+.form-container button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #e64a19;
+}
+
+/* Links inside forms */
+.form-container a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* Home Page Container */
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    color: white;
+    text-align: center;
+}
+
+.home-container h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: white;
+}
+
+/* Button container for Home Page */
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e64a19;
+}
+
+/* Product List Styling */
+.product-list-container {
+    margin: 50px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-list-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list-container li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-list-container li:last-child {
+    border-bottom: none;
+}
+
+.product-list-container li strong {
+    font-size: 18px;
+    color: #ff5722;
+}
+
+.product-list-container p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+}
